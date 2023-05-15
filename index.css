@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+font-family:'Times New Roman', Times, serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    color: #fff;
+    
+}
+.container{
+    background: #ddc2d9;
+    display: flex;
+    height: 410px;
+    width: 390px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.temp-calculator{
+    width: 100%;
+    padding: 0 20px;
+    margin: 25px 0;
+
+    
+}
+.title{
+    font-size: 27px;
+    font-weight: 600;
+    color: #0b08e9;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+}
+.temp-value{
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.temp-value p{
+    font-size: 17px;
+    font-weight: 600;
+    align-items: center;
+    text-align: left;
+    padding: 10px 0;
+    flex-basis: 42%;
+    color: #141414;
+    font-weight: 700;
+}
+.temp-value input{
+    width: 100%;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    border-radius: 6px;
+    color: #f0e5e5;
+    background: #860b6cc7;
+    width: 55%;
+    padding: 10px;
+    flex-basis: 55%;
+}
+#degree{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+#degree span{
+    flex-basis: 48%;
+}
+#degree span p{
+    font-size: 17px;
+    font-weight: 700;
+    align-items: center;
+    text-align: left;
+    padding: 5px 10px;
+    color: #141414;
+}
+#degree span select{
+    width: 100%;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    border-radius: 6px;
+    color: #fff;
+    background: #860b6cc7;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn input{
+    font-size: 16px;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    padding: 11px;
+    flex-basis: 45%;
+    color: #fff;
+    flex-wrap: wrap;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.temp-value #ans{
+    font-size: 17px;
+    font-weight: 600;
+    align-items: center;
+    text-align: left;
+    padding: 10px 0;
+    flex-basis: 25%;
+    font-weight: 700;
+}
+.temp-value #result{
+    width: 100%;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    border-radius: 6px;
+    color: #fff;
+    background: #860b6cc7;
+    width: 60%;
+    padding: 10px;
+    flex-basis: 70%;
+    cursor: default;
+
+}
